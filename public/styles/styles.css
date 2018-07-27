@@ -1,0 +1,42 @@
+body {
+  background-image: url("https://cdn.images.express.co.uk/img/dynamic/11/590x/secondary/Gym-workout-diet-1177877.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Merienda', cursive;
+}
+
+#upperbody {
+  background: rgba(218, 158, 202, 0.9);
+  padding: 100px 50px;
+  border-radius: 150px;
+  margin: 100px auto;
+}
+
+#lowerbody{
+  background: rgba(202, 147, 187, 0.7);
+  padding: 150px 50px;
+  border-radius: 150px;
+  margin: 100px auto;
+}
+
+#history {
+  background: rgba(202, 147, 187, 0.5);
+  padding: 200px 50px;
+  border-radius: 150px;
+  margin: 100px auto;
+}
+
+/* navbar  */
+.navbar-expand-lg {
+  background-color: rgb(106, 143, 184, 0.3)!important;
+}
+
+/* button */
+button {
+  background: rgb(228, 88, 96, 0.7) !important;
+ 
+}
+
+button:hover{
+  background: rgb(255, 165, 0, 0.7) !important;
+}

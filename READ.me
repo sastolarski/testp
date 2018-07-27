@@ -1,0 +1,16 @@
+project2
+
+
+***** Passport Notes *****
+
+Components:
+
+1. Strategies: config/passports/passports.js - User Authentication uses passport with local strategies. These strategies use username and password to authenticate users. This file is required by the server.js
+
+2. Controllers: controllers/authcontroller.js - include: register, login, dashboard, and logout.
+
+3. Models: models/users.js - id, username, password. username and password are required for register. username and password are required for login.
+
+4. Routes: routes/auth.js - GET Routes for /register, /login, /dashboard, /logout. POST routes for /register and /login. /dashboard route requires user authentication.
+
+5. Handlebars: views/.handlebars - Three sample files for testing: 1) register 2) login 3) dashboard
